@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <chrono>
-#include <filesystem>
 #include "maxflow.hpp"
 #include "instance_reader.hpp"
 
@@ -40,7 +39,7 @@ int main(int argc, char* argv[])
     // minimal_example();
 
     if (argc != 2) throw std::runtime_error("No input file.");
-    
+
     auto network = read_maxflow_instance(argv[1]);
     std::cout << "\nNetwork instance: \"" << argv[1] << " - |V| = " << network.n << ", |E| = " << network.m << '\n';
 
