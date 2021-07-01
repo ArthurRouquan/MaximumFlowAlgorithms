@@ -5,7 +5,7 @@ Implementation in C++20 of the [Edmonds-Karp's algorithm](https://en.wikipedia.o
 ## To-Do
 
 * Implementation of a performant push-relabel algorithm.
-* A small function to compute the minimum cut with the final residual graph.
+* A small function to compute the minimum cut with the final residual network.
 
 ## How to run it?
 
