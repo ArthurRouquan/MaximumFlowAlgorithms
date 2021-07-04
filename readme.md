@@ -1,4 +1,4 @@
-# Edmonds–Karp and Dinitz–Cherkassky maximum flow algorithms in Modern C++20
+# Edmonds–Karp and Dinitz–Cherkassky maximum flow algorithms
 
 Implementation in C++20 of the [Edmonds-Karp's algorithm](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm) and the [Dinitz's algorithm](https://en.wikipedia.org/wiki/Dinic%27s_algorithm) (following the Boris V. Cherkassky's recommentations) for computing the maximum flow of a given flow network in O(nm²) and O(n²m) respectively. This implementation was made for educational purposes.
 
